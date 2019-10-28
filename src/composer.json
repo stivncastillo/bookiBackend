@@ -20,6 +20,7 @@
         "lab404/laravel-impersonate": "^1.4",
         "langleyfoxall/laravel-nist-password-rules": "^4.0",
         "laravel/framework": "^6.0",
+        "laravel/passport": "^7.5",
         "laravel/socialite": "^4.1",
         "spatie/laravel-html": "^2.22",
         "spatie/laravel-permission": "^3.0",
