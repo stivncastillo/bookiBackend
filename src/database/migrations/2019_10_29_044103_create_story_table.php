@@ -17,7 +17,7 @@ class CreateStoryTable extends Migration
             $table->bigIncrements('id');
             $table->unsignedBigInteger('user_id');
             $table->unsignedBigInteger('book_id');
-            $table->string('action'); // constants (start, progress, finish)
+            $table->string('action'); // constants (create, start, progress, finish)
             $table->text('summary');
             $table->integer('page');
             $table->integer('chapter');

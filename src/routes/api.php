@@ -13,6 +13,9 @@ use Illuminate\Http\Request;
 |
 */
 
-/*Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});*/
+/**
+ * Version 1
+ */
+Route::group(['namespace' => 'Api', 'as' => 'api.', 'prefix' => 'v1'], function () {
+    include_route_files(__DIR__.'/api/v1');
+});
